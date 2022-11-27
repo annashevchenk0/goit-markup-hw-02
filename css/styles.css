@@ -1,0 +1,266 @@
+/* background: #F5F5F5 #fff */
+/* secondary background-color #F5F4FA #EEE */
+/* main font color #212121 */
+/* logo color  #000 */
+/* font color #fff  #2196F3 */
+/* secondary font color #757575 */
+/* footer background-color #2F303A */
+/* stroke color #ECECEC */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #fff;
+    --background-color: #F5F4FA;
+    --footer-background-color: #2f303A;
+
+}
+
+/* Body */
+
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/* Logo */
+
+.logo {
+    font-family: Raleway; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000;
+}
+.web-logo {
+    color: var(--accent-color); 
+}
+
+/* Navigation */
+
+.nav-list {}
+
+.nav-item {}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--primary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-link.current{
+    color: var(--accent-color);
+}
+
+.contacts-list {}
+
+.contacts-item {}
+
+.contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+/* Main content */
+
+.hero {}
+
+/* Section */
+.section {
+    background-color: var(--footer-background-color);
+}
+.section-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color)
+}
+.section-button {
+    font-family: inherit;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* Feature */
+.feature {}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.feature-list {}
+
+.feature-item {}
+
+.feature-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+.feature-text {
+    font-size: 14px;
+    line-height: 0.5;
+    color: var(--title-text-color);
+}
+
+/* About */
+.about{}
+
+.about-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.8;
+}
+.about-list{}
+.about-picture{}
+
+/* Team */
+.team{
+    background: var(--background-color);
+}
+
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.8;
+}
+.team-list{}
+.team-item{}
+.team-pic{}
+
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.8;
+    text-align: center;
+}
+.team-post{
+    font-size: 16px;
+    line-height: 0.8;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+/* Main content portfolio */
+.main-content{}
+.portfolio{}
+.filter{}
+.filter-item{}
+
+.filter-btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.6;
+    text-align: center;
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    background: var(--background-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+
+/* Projects */
+.projects{}
+.project-item{}
+.project-pic{}
+
+.project-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.5;
+    letter-spacing: 0.06em;
+}
+.project-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.5;
+    color: var(--title-text-color);
+}
+
+
+/* Footer */
+.footer{
+    background-color: var(--footer-background-color);
+}
+.footer-logo{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.8;
+    color: var(--white-color);
+}
+.footer-web{
+    color: var(--accent-color);
+}
+
+/* Address */
+.address{
+}
+
+.address-name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.5;
+    color: var(--white-color);
+}
+.address-list{}
+.address-item{}
+
+.address-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.5;
+    color: var(--title-text-color);
+}
+.address-name:hover,
+.address-name:focus{
+    color: var(--accent-color);
+}
+.address-link:hover,
+.address-link:focus{
+    color: var(--accent-color);
+}
