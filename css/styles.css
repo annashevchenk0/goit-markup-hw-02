@@ -14,6 +14,8 @@
     --white-color: #fff;
     --background-color: #F5F4FA;
     --footer-background-color: #2f303A;
+    --black-color: #000;
+
 
 }
 
@@ -34,11 +36,11 @@ li {
 /* Logo */
 
 .logo {
-    font-family: Raleway; 
+    font-family: Raleway, sans-serif; 
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #000;
+    color: var(--black-color);
 }
 .web-logo {
     color: var(--accent-color); 
@@ -101,6 +103,8 @@ li {
 }
 .section-button {
     font-family: inherit;
+    font-size: 16px;
+    line-height: 1.8;
     color: var(--white-color);
     background-color: var(--accent-color);
     cursor: pointer;
@@ -133,7 +137,7 @@ li {
 }
 .feature-text {
     font-size: 14px;
-    line-height: 0.5;
+    line-height: 1.71;
     color: var(--title-text-color);
 }
 
@@ -143,7 +147,7 @@ li {
 .about-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.8;
+    line-height: 1.16;
 }
 .about-list{}
 .about-picture{}
@@ -156,7 +160,7 @@ li {
 .team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.8;
+    line-height: 1.16;
 }
 .team-list{}
 .team-item{}
@@ -165,12 +169,12 @@ li {
 .team-name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.8;
+    line-height: 1.18;
     text-align: center;
 }
 .team-post{
     font-size: 16px;
-    line-height: 0.8;
+    line-height: 1.18;
     text-align: center;
     color: var(--title-text-color);
 }
@@ -185,9 +189,8 @@ li {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.6;
+    line-height: 1.6;
     text-align: center;
-    width: 125px;
     height: 38px;
     left: 593px;
     top: 174px;
@@ -210,13 +213,13 @@ li {
 .project-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.5;
+    line-height: 1;
     letter-spacing: 0.06em;
 }
 .project-desc{
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.5;
+    line-height: 1.8;
     color: var(--title-text-color);
 }
 
@@ -228,7 +231,7 @@ li {
 .footer-logo{
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.8;
+    line-height: 1.19;
     color: var(--white-color);
 }
 .footer-web{
@@ -237,23 +240,22 @@ li {
 
 /* Address */
 .address{
+    font-style: normal;
 }
 
 .address-name{
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 0.5;
+    line-height: 1.71;
     color: var(--white-color);
 }
 .address-list{}
 .address-item{}
 
 .address-link{
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 0.5;
+    line-height: 1.71;
     color: var(--title-text-color);
 }
 .address-name:hover,
